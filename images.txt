@@ -10,6 +10,7 @@ ubuntu:22.04
 unifreq/openwrt-aarch64
 hello-world
 python:3.9-alpine
-registry.redhat.io/ubi9/python-39
+--platform=linux/aarch64 hello-world
+# registry.redhat.io/ubi9/python-39
 # Seems fail reason: python-39
 
