@@ -4,15 +4,18 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
-ubuntu:16.04
 ubuntu:14.04
+ubuntu:16.04
+ubuntu:18.04
 ubuntu:22.04
 unifreq/openwrt-aarch64
 hello-world
 python:3.9-alpine
 busybox
+jellyfin/jellyfin
 --platform=linux/aarch64 hello-world
 --platform=linux/aarch64 busybox
+--platform=linux/aarch64 jellyfin/jellyfin
 # registry.redhat.io/ubi9/python-39
 # Seems fail reason: python-39
 
