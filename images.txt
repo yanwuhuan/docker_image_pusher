@@ -10,12 +10,16 @@ ubuntu:18.04
 ubuntu:22.04
 unifreq/openwrt-aarch64
 hello-world
+--platform=linux/aarch64 hello-world
 python:3.9-alpine
 busybox
-jellyfin/jellyfin
---platform=linux/aarch64 hello-world
 --platform=linux/aarch64 busybox
+jellyfin/jellyfin
 --platform=linux/aarch64 jellyfin/jellyfin
+alpine:3.17.1
+alpine
+--platform=linux/aarch64 alpine:3.17.1
+--platform=linux/aarch64 alpine
 # registry.redhat.io/ubi9/python-39
 # Seems fail reason: python-39
 
