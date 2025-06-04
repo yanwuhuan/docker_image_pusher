@@ -22,4 +22,4 @@ alpine
 --platform=linux/aarch64 alpine
 # registry.redhat.io/ubi9/python-39
 # Seems fail reason: python-39
-
+albrechtloh/openwrt-docker
