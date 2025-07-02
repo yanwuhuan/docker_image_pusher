@@ -8,7 +8,7 @@ ubuntu:14.04
 ubuntu:16.04
 ubuntu:18.04
 ubuntu:22.04
-unifreq/openwrt-aarch64
+# unifreq/openwrt-aarch64
 hello-world
 --platform=linux/aarch64 hello-world
 python:3.9-alpine
@@ -22,5 +22,5 @@ alpine
 --platform=linux/aarch64 alpine
 # registry.redhat.io/ubi9/python-39
 # Seems fail reason: python-39
-albrechtloh/openwrt-docker
+--platform=linux/aarch64 albrechtloh/openwrt-docker
 # update Jul 02, 2025
