@@ -24,5 +24,5 @@ alpine
 # Seems fail reason: python-39
 --platform=linux/aarch64 albrechtloh/openwrt-docker
 # update Jul 02, 2025
-openwrt/rootfs:aarch64_generic-master
-xream/sub-store
+#openwrt/rootfs:aarch64_generic-master
+#xream/sub-store
