@@ -26,3 +26,6 @@ alpine
 # update Jul 02, 2025
 #openwrt/rootfs:aarch64_generic-master
 #xream/sub-store
+mysql:5.7
+mysql:8.0
+mysql:8.4
